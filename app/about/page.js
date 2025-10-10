@@ -1,16 +1,16 @@
-import Link from 'next/link';
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
+import { Container, Heading, Text } from '@chakra-ui/react';
 
 export default function AboutPage() {
   return (
-    <section style={{ padding: '24px' }}>
-      <h1>About</h1>
-      <p>We are building a tiny 3-page Next.js site from scratch.</p>
-
-      <nav style={{ marginTop: '16px', display: 'flex', gap: '12px' }}>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
-      </nav>
-    </section>
+    <>
+      <Navbar />
+      <Container maxW="6xl" py={10}>
+        <Heading mb={3}>About</Heading>
+        <Text color="gray.600">Tiny 3-page site using Next.js + Chakra UI.</Text>
+      </Container>
+      <Footer />
+    </>
   );
 }
