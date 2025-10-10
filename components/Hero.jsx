@@ -1,5 +1,5 @@
 'use client';
-import { Container, SimpleGrid, Heading, Text, Button, Stack, Image } from '@chakra-ui/react';
+import { Container, SimpleGrid, Heading, Text, Button, Stack, Box } from '@chakra-ui/react';
 import NextLink from 'next/link';
 
 export default function Hero() {
@@ -19,11 +19,15 @@ export default function Hero() {
           </Stack>
         </Stack>
 
-        <Image
-          src="https://images.unsplash.com/photo-1529336953121-4c03f3e7a1fe?w=1200&q=80&auto=format&fit=crop"
+        <Box
+          as="img"
+          src="https://picsum.photos/600/400"
           alt="Hero"
-          rounded="xl"
-          shadow="lg"
+          borderRadius="xl"
+          boxShadow="lg"
+          width="100%"
+          height="auto"
+          objectFit="cover"
         />
       </SimpleGrid>
     </Container>
