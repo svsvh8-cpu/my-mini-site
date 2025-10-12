@@ -12,7 +12,7 @@ export default function Navbar() {
         <Flex align="center" justify="space-between">
           <HStack spacing={3}>
           <Box w="10px" h="10px" bg="purple.500" borderRadius="full" />
-            <Text fontWeight="bold">My Mini Site</Text>
+            <Text fontWeight="bold">PropertiX</Text>
           </HStack>
 
           <HStack spacing={6}>
@@ -20,6 +20,7 @@ export default function Navbar() {
             <Link as={NextLink} href="/about">About</Link>
             <Link as={NextLink} href="/contact">Contact</Link>
             <Link as={NextLink} href="/dashboard">Dashboard</Link>
+            <Link as={NextLink} href="/analytics">Analytics</Link>
             
             {isSignedIn ? (
               <HStack spacing={3}>

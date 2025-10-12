@@ -1,6 +1,6 @@
 import Providers from './providers.jsx';
 
-export const metadata = { title: 'My Mini Site' };
+export const metadata = { title: 'PropertiX' };
 
 export default function RootLayout({ children }) {
   return (
