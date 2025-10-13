@@ -58,7 +58,7 @@ export default function AboutPage() {
                   textShadow="0 0 10px rgba(0,0,0,0.8)"
                   opacity={0.9}
                 >
-                  Advanced analytics and insights for Dubai's premium real estate market. 
+                  Advanced analytics and insights for Dubai&apos;s premium real estate market. 
                   Powered by cutting-edge technology and comprehensive market data.
                 </Text>
               </VStack>
@@ -173,7 +173,7 @@ export default function AboutPage() {
                   fontWeight="semibold"
                   textShadow="0 0 10px rgba(0,0,0,0.8)"
                 >
-                  Ready to unlock Dubai's real estate potential?
+                  Ready to unlock Dubai&apos;s real estate potential?
                 </Text>
                 
                 <HStack spacing={4}>
