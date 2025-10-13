@@ -110,17 +110,17 @@ export default function DashboardPage() {
             </SimpleGrid>
 
             {/* Google Sheets iframe with neon styling */}
-            <Box
-              bg="rgba(0, 0, 0, 0.3)"
-              border="2px solid"
-              borderColor="#00d4ff"
-              borderRadius="xl"
-              overflow="hidden"
-              boxShadow="0 0 30px rgba(0, 212, 255, 0.3)"
-              width="38%"
-              mx="auto"
-              backdropFilter="blur(10px)"
-            >
+                <Box
+                  bg="rgba(0, 0, 0, 0.3)"
+                  border="2px solid"
+                  borderColor="#00d4ff"
+                  borderRadius="xl"
+                  overflow="hidden"
+                  boxShadow="0 0 30px rgba(0, 212, 255, 0.3)"
+                  width="34.3%"
+                  mx="auto"
+                  backdropFilter="blur(10px)"
+                >
               <Box
                 bg="linear-gradient(90deg, #00d4ff, #ff00ff)"
                 p={3}
@@ -132,7 +132,7 @@ export default function DashboardPage() {
               </Box>
               <Box
                 width="100%"
-                height="6752"
+                height="352"
                 overflow="hidden"
                 position="relative"
                 style={{
@@ -143,7 +143,7 @@ export default function DashboardPage() {
                 <iframe
                   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRMyfznGb7ySdDCbndf7T98f49QMd_h3q6kjd5EaAEzV_5In92BudAb4Q6vFIoVlc9PWmvNvP-TA-bz/pubhtml?gid=0&single=true&range=A:E&widget=false&chrome=false"
                   width="100%"
-                  height="6752"
+                  height="8000"
                   frameBorder="0"
                   title="Google Sheets Table"
                   style={{
@@ -153,7 +153,7 @@ export default function DashboardPage() {
                     transform: 'scale(0.8)',
                     transformOrigin: 'top left',
                     width: '125%',
-                    height: '125%'
+                    height: '281px'
                   }}
                 />
               </Box>

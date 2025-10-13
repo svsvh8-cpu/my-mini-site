@@ -1,7 +1,7 @@
 'use client';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import { Container, Heading, Text, Box, Button, VStack, HStack, SimpleGrid, Icon } from '@chakra-ui/react';
+import { Container, Heading, Text, Box, Button, VStack, HStack, SimpleGrid } from '@chakra-ui/react';
 import NextLink from 'next/link';
 
 export default function AboutPage() {
@@ -90,9 +90,7 @@ export default function AboutPage() {
                     mb={4}
                     boxShadow="0 0 20px rgba(0, 212, 255, 0.5)"
                   >
-                    <Icon viewBox="0 0 24 24" color="white" boxSize={8}>
-                      <path fill="currentColor" d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-                    </Icon>
+                    <Text fontSize="4xl" color="white">📊</Text>
                   </Box>
                   <Heading size="lg" color="white" mb={3}>Market Analytics</Heading>
                   <Text color="rgba(255,255,255,0.8)">
@@ -125,9 +123,7 @@ export default function AboutPage() {
                     mb={4}
                     boxShadow="0 0 20px rgba(255, 0, 255, 0.5)"
                   >
-                    <Icon viewBox="0 0 24 24" color="white" boxSize={8}>
-                      <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                    </Icon>
+                    <Text fontSize="4xl" color="white">🤖</Text>
                   </Box>
                   <Heading size="lg" color="white" mb={3}>AI Insights</Heading>
                   <Text color="rgba(255,255,255,0.8)">
@@ -160,9 +156,7 @@ export default function AboutPage() {
                     mb={4}
                     boxShadow="0 0 20px rgba(0, 255, 136, 0.5)"
                   >
-                    <Icon viewBox="0 0 24 24" color="white" boxSize={8}>
-                      <path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                    </Icon>
+                    <Text fontSize="4xl" color="white">⭐</Text>
                   </Box>
                   <Heading size="lg" color="white" mb={3}>Premium Service</Heading>
                   <Text color="rgba(255,255,255,0.8)">

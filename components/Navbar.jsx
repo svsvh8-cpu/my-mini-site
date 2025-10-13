@@ -2,6 +2,7 @@
 import { Box, Container, Flex, HStack, Link, Button, Text } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import { SignInButton, SignOutButton, useUser } from '@clerk/nextjs';
+import ContactModal from './ContactModal';
 
 export default function Navbar() {
   const { isSignedIn, user } = useUser();
@@ -41,9 +42,7 @@ export default function Navbar() {
               </SignInButton>
             )}
             
-            <Button as={NextLink} href="/contact" colorScheme="purple" variant="solid" size="sm">
-              Get in touch
-            </Button>
+                <ContactModal />
           </HStack>
         </Flex>
       </Container>
