@@ -132,7 +132,7 @@ export default function DashboardPage() {
               </Box>
               <Box
                 width="100%"
-                height="1688"
+                height="3376"
                 overflow="hidden"
                 position="relative"
                 style={{
@@ -143,7 +143,7 @@ export default function DashboardPage() {
                 <iframe
                   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRMyfznGb7ySdDCbndf7T98f49QMd_h3q6kjd5EaAEzV_5In92BudAb4Q6vFIoVlc9PWmvNvP-TA-bz/pubhtml?gid=0&single=true&range=A:E&widget=false&chrome=false"
                   width="100%"
-                  height="1688"
+                  height="3376"
                   frameBorder="0"
                   title="Google Sheets Table"
                   style={{
