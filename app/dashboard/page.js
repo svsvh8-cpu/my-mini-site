@@ -126,9 +126,9 @@ export default function DashboardPage() {
                 p={3}
                 textAlign="center"
               >
-                <Text color="black" fontWeight="bold" fontSize="lg">
-                  📊 LIVE DATA TABLE
-                </Text>
+                    <Text color="black" fontWeight="bold" fontSize="lg">
+                      📊 ANALYTICS DASHBOARD
+                    </Text>
               </Box>
               <Box
                 width="100%"
@@ -140,22 +140,22 @@ export default function DashboardPage() {
                   borderRadius: '0 0 12px 12px'
                 }}
               >
-                <iframe
-                  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRMyfznGb7ySdDCbndf7T98f49QMd_h3q6kjd5EaAEzV_5In92BudAb4Q6vFIoVlc9PWmvNvP-TA-bz/pubhtml?gid=0&single=true&range=A:E&widget=false&chrome=false"
-                  width="100%"
-                  height="8000"
-                  frameBorder="0"
-                  title="Google Sheets Table"
-                  style={{
-                    border: 'none',
-                    borderRadius: '0 0 12px 12px',
-                    background: 'transparent',
-                    transform: 'scale(0.8)',
-                    transformOrigin: 'top left',
-                    width: '125%',
-                    height: '281px'
-                  }}
-                />
+                    <iframe
+                      src="https://lookerstudio.google.com/embed/reporting/5e4e8d09-87e5-4295-9ea1-7845ddccf910/page/uxpbF"
+                      width="100%"
+                      height="8000"
+                      frameBorder="0"
+                      title="Looker Studio Report"
+                      style={{
+                        border: 'none',
+                        borderRadius: '0 0 12px 12px',
+                        background: 'transparent',
+                        transform: 'scale(0.8)',
+                        transformOrigin: 'top left',
+                        width: '125%',
+                        height: '281px'
+                      }}
+                    />
               </Box>
             </Box>
           </VStack>
