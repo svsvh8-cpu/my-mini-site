@@ -117,7 +117,7 @@ export default function DashboardPage() {
                   borderRadius="xl"
                   overflow="hidden"
                   boxShadow="0 0 30px rgba(0, 212, 255, 0.3)"
-                  width="34.3%"
+                  width="100%"
                   mx="auto"
                   backdropFilter="blur(10px)"
                 >
@@ -132,7 +132,7 @@ export default function DashboardPage() {
               </Box>
               <Box
                 width="100%"
-                height="352"
+                height="1056"
                 overflow="hidden"
                 position="relative"
                 style={{
@@ -143,7 +143,7 @@ export default function DashboardPage() {
                     <iframe
                       src="https://lookerstudio.google.com/embed/reporting/5e4e8d09-87e5-4295-9ea1-7845ddccf910/page/uxpbF"
                       width="100%"
-                      height="8000"
+                      height="24000"
                       frameBorder="0"
                       title="Looker Studio Report"
                       style={{
@@ -153,7 +153,7 @@ export default function DashboardPage() {
                         transform: 'scale(0.8)',
                         transformOrigin: 'top left',
                         width: '125%',
-                        height: '281px'
+                        height: '843px'
                       }}
                     />
               </Box>
